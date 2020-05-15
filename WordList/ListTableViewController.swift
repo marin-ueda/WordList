@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ListTableViewController: UIViewController {
+class ListTableViewController: UITableViewController {
     
     var wordArray: [Dictionary<String, String>] = []
     
@@ -21,13 +21,20 @@ class ListTableViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        if saveData.array(forKey: "WORD") != nil{
+        if saveData.array(forKey: "WORD") != nil {
             wordArray = saveData.array(forKey: "WORD") as! [Dictionary<String, String>]
         }
         
-       tableView.reloadData()
+        tableView.reloadData()
 
     }
+
+    
+    
+    
+    
+    
+    
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -39,7 +46,7 @@ class ListTableViewController: UIViewController {
 }
     
 
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) ->UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ListTableViewCell
         
         let nowIndexPathDictionary = wordArray[indexPath.row]

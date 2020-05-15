@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510F3CA6246B8E2A008CE068 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510F3CA5246B8E2A008CE068 /* ListTableViewController.swift */; };
+		510F3CA8246B9383008CE068 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510F3CA7246B9383008CE068 /* ListTableViewCell.swift */; };
 		51AB00FD246AE04F00A808BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB00FC246AE04F00A808BE /* AppDelegate.swift */; };
 		51AB00FF246AE04F00A808BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB00FE246AE04F00A808BE /* SceneDelegate.swift */; };
 		51AB0101246AE04F00A808BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB0100246AE04F00A808BE /* ViewController.swift */; };
@@ -20,9 +22,7 @@
 		51AB0132246AE09600A808BE /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AB012F246AE09600A808BE /* title_logo.png */; };
 		51AB0134246AEA5E00A808BE /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB0133246AEA5E00A808BE /* QuestionViewController.swift */; };
 		51AB0136246AEA9A00A808BE /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB0135246AEA9A00A808BE /* FinishViewController.swift */; };
-		51AB0138246AEB1300A808BE /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB0137246AEB1300A808BE /* ListTableViewController.swift */; };
 		51AB013A246AEB2900A808BE /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB0139246AEB2900A808BE /* AddViewController.swift */; };
-		51AB013E246AFC8400A808BE /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB013D246AFC8400A808BE /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		510F3CA5246B8E2A008CE068 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		510F3CA7246B9383008CE068 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		51AB00F9246AE04F00A808BE /* WordList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51AB00FC246AE04F00A808BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51AB00FE246AE04F00A808BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,15 +58,12 @@
 		51AB0115246AE05100A808BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51AB011A246AE05100A808BE /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51AB011E246AE05100A808BE /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
-		51AB0120246AE05100A808BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51AB012D246AE09600A808BE /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
 		51AB012E246AE09600A808BE /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
 		51AB012F246AE09600A808BE /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
 		51AB0133246AEA5E00A808BE /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		51AB0135246AEA9A00A808BE /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
-		51AB0137246AEB1300A808BE /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		51AB0139246AEB2900A808BE /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		51AB013D246AFC8400A808BE /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,9 +124,9 @@
 				51AB010A246AE05100A808BE /* Info.plist */,
 				51AB0133246AEA5E00A808BE /* QuestionViewController.swift */,
 				51AB0135246AEA9A00A808BE /* FinishViewController.swift */,
-				51AB0137246AEB1300A808BE /* ListTableViewController.swift */,
+				510F3CA5246B8E2A008CE068 /* ListTableViewController.swift */,
 				51AB0139246AEB2900A808BE /* AddViewController.swift */,
-				51AB013D246AFC8400A808BE /* ListTableViewCell.swift */,
+				510F3CA7246B9383008CE068 /* ListTableViewCell.swift */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -145,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				51AB011E246AE05100A808BE /* WordListUITests.swift */,
-				51AB0120246AE05100A808BE /* Info.plist */,
 			);
 			path = WordListUITests;
 			sourceTree = "<group>";
@@ -295,11 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				51AB0136246AEA9A00A808BE /* FinishViewController.swift in Sources */,
-				51AB013E246AFC8400A808BE /* ListTableViewCell.swift in Sources */,
+				510F3CA8246B9383008CE068 /* ListTableViewCell.swift in Sources */,
 				51AB0101246AE04F00A808BE /* ViewController.swift in Sources */,
+				510F3CA6246B8E2A008CE068 /* ListTableViewController.swift in Sources */,
 				51AB013A246AEB2900A808BE /* AddViewController.swift in Sources */,
 				51AB00FD246AE04F00A808BE /* AppDelegate.swift in Sources */,
-				51AB0138246AEB1300A808BE /* ListTableViewController.swift in Sources */,
 				51AB0134246AEA5E00A808BE /* QuestionViewController.swift in Sources */,
 				51AB00FF246AE04F00A808BE /* SceneDelegate.swift in Sources */,
 			);
